@@ -41,6 +41,7 @@ html, body{
 }
 .dp img{
     width: 100px;
+    border-radius: 50%;
 }
 .followers{
     margin-bottom: 30px;
@@ -93,4 +94,45 @@ html, body{
 .left-button{
     margin-right: 5px;
     
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #F0F2F5;
+    width: 230px;
+    height: 35px;
+}
+.search img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 25px 0px 10px;
+}
+.search p{
+    color: #87959D;
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 240px;
+}
+.top-right .add_photo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #FAA343, #E74A64);
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+}
+.top-right .add_photo p{
+    color: white;
 }
